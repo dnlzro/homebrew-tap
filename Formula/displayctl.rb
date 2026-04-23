@@ -5,6 +5,11 @@ class Displayctl < Formula
   sha256 "33d6b6849c9ba37e1100fd16f9a3f0d65c6c84118f1ba3708dfbed4ea5656de3"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/dnlzro/homebrew-tap/releases/download/displayctl-0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "0a45aed82ee4782853475e5ea5d343ddea1750431087afc5555ec9d3c7f0d9b9"
+  end
+
   depends_on "rust" => :build
   depends_on :macos
 
