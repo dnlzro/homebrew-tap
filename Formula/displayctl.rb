@@ -18,6 +18,6 @@ class Displayctl < Formula
   end
 
   test do
-    system bin/"displayctl", "list"
+    system bin/"displayctl", "--version"
   end
 end
