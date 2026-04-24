@@ -1,8 +1,8 @@
 class Displayctl < Formula
   desc "List and toggle macOS displays from the command-line"
   homepage "https://github.com/dnlzro/displayctl"
-  url "https://github.com/dnlzro/displayctl/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "33d6b6849c9ba37e1100fd16f9a3f0d65c6c84118f1ba3708dfbed4ea5656de3"
+  url "https://github.com/dnlzro/displayctl/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "8f4b3e52a18bce66a530b905dda764b2b85ef639ed2f570d8fdd0a0d696074d6"
   license "MIT"
 
   bottle do
