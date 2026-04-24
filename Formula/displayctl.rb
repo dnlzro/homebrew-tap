@@ -6,8 +6,8 @@ class Displayctl < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/dnlzro/homebrew-tap/releases/download/displayctl-0.1.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "0a45aed82ee4782853475e5ea5d343ddea1750431087afc5555ec9d3c7f0d9b9"
+    root_url "https://github.com/dnlzro/homebrew-tap/releases/download/displayctl-0.2.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "371eb890a2f6711018dbbb9ddb8326d1b9cbfda4a605a8c58a2fad5c383d09c1"
   end
 
   depends_on "rust" => :build
